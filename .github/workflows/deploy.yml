@@ -48,14 +48,14 @@ jobs:
       - name: Deploy to VPS
         uses: appleboy/ssh-action@v0.1.9
         with:
-          host: ${{ secrets.SERVER_CONECTIACAPITAL_HOST }}
-          username: ${{ secrets.SERVER_CONECTIACAPITAL_USER }}
+          host: ${{ secrets.HETZNER_MEMIN_HOST }}
+          username: ${{ secrets.HETZNER_MEMIN_SSH }}
           key: ${{ secrets.SERVER_CONECTIACAPITAL_SSH }}
           port: 22
           script: |
             echo "Conexión exitosa a Hetzner"
 
-            docker login ghcr.io -u ${{ secrets.GHCR_USERNAME_CONECTIACAPITAL }} -p ${{ secrets.GHCR_TOKEN_CONECTIACAPITAL }}
+            docker login ghcr.io -u andrescortesdev -p ${{ secrets.GHCR_TOKEN }}
             # echo "${{ secrets.GHCR_TOKEN_CONECTIACAPITAL }}" | docker login ghcr.io  -u "${{ secrets.GHCR_USERNAME_CONECTIACAPITAL }}" --password-stdin
             docker pull ghcr.io/${{ github.repository }}:latest
             docker stop andrescortes-dev || true
