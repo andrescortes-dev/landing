@@ -74,7 +74,7 @@ jobs:
                          -e DB_CONNECTION=pgsql \
                          -e DB_USERNAME=postgres \
                          -e DB_PASSWORD=${{ secrets.DB_PASSWORD_MEMIN }} \
-                         -e DB_PORT=6543 \
+                         -e DB_PORT=5432 \
                          -e APP_KEY=${{ secrets.APP_KEY_MEMIN}} \
                          -p 4000:9000 \
                          -v andrescortes-dev_public:/var/www/html/public \
