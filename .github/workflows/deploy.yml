@@ -69,21 +69,14 @@ jobs:
             docker volume andrescortes-dev_monolith_storage_bootstrap || true
 
             docker run -d --name andrescortes-dev \
-                         -e DB_HOST=${{ secrets.DB_PROD_CONECTIACAPITAL_HOST }} \
+                         -e DB_HOST=${{ secrets.DB_HOST_MEMIN }} \
                          -e DB_DATABASE=db_prod_collaborators \
-                         -e DB_USERNAME=${{ secrets.DB_PROD_CONECTIACAPITAL_USER }} \
-                         -e DB_PASSWORD=${{ secrets.DB_PROD_CONECTIACAPITAL_PASSWORD }} \
+                         -e DB_USERNAME=postgres \
+                         -e DB_PASSWORD=${{ secrets.DB_PASSWORD_MEMIN }} \
                          -e DB_PORT=6543 \
-                         -e DB_HOST_CONECTIA_CAPITAL_UELT=${{ secrets.DB_PROD_CONECTIACAPITAL_HOST }} \
-                         -e DB_DATABASE_CONECTIA_CAPITAL_UELT=db_prod_uelt \
-                         -e DB_USERNAME_CONECTIA_CAPITAL_UELT=${{ secrets.DB_PROD_CONECTIACAPITAL_USER }} \
-                         -e DB_PASSWORD_CONECTIA_CAPITAL_UELT=${{ secrets.DB_PROD_CONECTIACAPITAL_PASSWORD }} \
-                         -e DB_PORT_CONECTIA_CAPITAL_UELT=6543 \
-                         -e APP_KEY=${{ secrets.PROD_APP_KEY}} \
+                         -e APP_KEY=${{ secrets.APP_KEY_MEMIN}} \
                          -e APP_ENV=prod \
-                         -e AWS_ACCESS_KEY_ID=${{secrets.AWS_ACCESS_KEY_ID}} \
-                         -e AWS_SECRET_ACCESS_KEY=${{secrets.AWS_SECRET_ACCESS_KEY}} \
-                         -p 4004:9000 \
+                         -p 4000:9000 \
                          -v andrescortes-dev_public:/var/www/html/public \
                          -v andrescortes-dev_storage:/var/www/html/storage \
                          -v andrescortes-dev_storage_bootstrap:/var/www/html/bootstrap/cache \
