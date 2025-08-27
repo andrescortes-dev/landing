@@ -71,6 +71,7 @@ jobs:
             docker run -d --name andrescortes-dev \
                          -e DB_HOST=${{ secrets.DB_HOST_MEMIN }} \
                          -e DB_DATABASE=landing \
+                         -e DB_CONNECTION=pgsql \
                          -e DB_USERNAME=postgres \
                          -e DB_PASSWORD=${{ secrets.DB_PASSWORD_MEMIN }} \
                          -e DB_PORT=6543 \
