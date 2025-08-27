@@ -49,8 +49,8 @@ jobs:
         uses: appleboy/ssh-action@v0.1.9
         with:
           host: ${{ secrets.HETZNER_MEMIN_HOST }}
-          username: ${{ secrets.HETZNER_MEMIN_SSH }}
-          key: ${{ secrets.SERVER_CONECTIACAPITAL_SSH }}
+          username: ${{ secrets.HETZNER_MEMIN_USER }}
+          key: ${{ secrets.HETZNER_MEMIN_SSH }}
           port: 22
           script: |
             echo "Conexión exitosa a Hetzner"
