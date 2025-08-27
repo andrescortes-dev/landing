@@ -75,7 +75,6 @@ jobs:
                          -e DB_PASSWORD=${{ secrets.DB_PASSWORD_MEMIN }} \
                          -e DB_PORT=6543 \
                          -e APP_KEY=${{ secrets.APP_KEY_MEMIN}} \
-                         -e APP_ENV=prod \
                          -p 4000:9000 \
                          -v andrescortes-dev_public:/var/www/html/public \
                          -v andrescortes-dev_storage:/var/www/html/storage \
