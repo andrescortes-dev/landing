@@ -43,7 +43,7 @@
 <section class="hero-wrap js-fullheight">
     <div class="container-fluid px-0">
         <div class="row d-md-flex no-gutters slider-text align-items-center js-fullheight justify-content-end">
-            <img class="one-third js-fullheight align-self-end order-md-last img-fluid" src="{{ url('images/robinson.png') }}" alt="" style="height: auto;width: auto;  filter: blur(1px);">
+            <img class="one-third js-fullheight align-self-end order-md-last img-fluid" src="{{ url('images/robinson.png') }}" alt="" style="height: auto;width: auto;  filter: blur(1px);transform: scale(.7)">
             <div class="one-forth d-flex align-items-center ftco-animate js-fullheight">
                 <div class="text mt-5">
                     <span class="subheading">Aprender y enseñar es parte del mismo viaje</span>
