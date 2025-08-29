@@ -33,7 +33,6 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav nav ml-auto">
                 <li class="nav-item"><a href="#home-section" class="nav-link"><span>Inicio</span></a></li>
-                <li class="nav-item"><a href="#chapter-section" class="nav-link"><span>Cursos</span></a></li>
                 <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contacto</span></a></li>
             </ul>
         </div>
@@ -41,8 +40,28 @@
 </nav>
 
 <section class="hero-wrap js-fullheight">
-    <div class="container-fluid px-0">
-        <div class="row d-md-flex no-gutters slider-text align-items-center js-fullheight justify-content-end">
+    <div class="container px-0">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="one-forth d-flex">
+                    <div class="text mt-5">
+                        <br><br><br>
+                        <span class="mt-5" style="text-transform: uppercase;font-size: 14px;font-weight: 700;color: #17b978;letter-spacing: 2px;">Aprender y enseñar es parte del mismo viaje</span>
+                        <h1 style="font-size: 60px;font-weight: 900;line-height: 1.3;">Robinson Andres Cortes</h1>
+                        <p style="font-size: 18px;line-height: 1.5;font-weight: 400;">Profesional apasionado por la
+                            enseñanza y el desarrollo de software, dedicado a compartir
+                            conocimiento y
+                            crear soluciones innovadoras. Su visión combina tecnología, aprendizaje y liderazgo para
+                            inspirar a otros a crecer.</p>
+                        <p><a href="#" class="btn btn-primary py-3 px-4">Explorar cursos</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 offset-1 text-center mt-3">
+                <img class="one-third align-self-end order-md-last img-fluid" src="{{ url('images/robinson.png') }}" alt="" style="height: auto;width: auto;  filter: blur(1px);transform: scale(.7)">
+            </div>
+        </div>
+        <!-- <div class="row d-md-flex no-gutters slider-text align-items-center js-fullheight justify-content-end">
             <img class="one-third js-fullheight align-self-end order-md-last img-fluid" src="{{ url('images/robinson.png') }}" alt="" style="height: auto;width: auto;  filter: blur(1px);transform: scale(.7)">
             <div class="one-forth d-flex align-items-center ftco-animate js-fullheight">
                 <div class="text mt-5">
@@ -55,400 +74,10 @@
                     <p><a href="#" class="btn btn-primary py-3 px-4">Explorar cursos</a></p>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<section class="ftco-section ftco-no-pb ftco-no-pt" id="chapter-section">
-    <div class="container">
-        <div class="row justify-content-center py-5">
-            <div class="col-md-12 heading-section text-center ftco-animate">
-                <h2 class="mb-4">Listado de Cursos y Tutoriales</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 mb-4">
-                <nav id="navi">
-                    <ul>
-                        <li><a href="#page-1">Title page</a></li>
-                        <li><a href="#page-2">Copyright</a></li>
-                        <li><a href="#page-3">Table of contents</a></li>
-                        <li><a href="#page-4">Dedication</a></li>
-                        <li><a href="#page-5">Foreword</a></li>
-                        <li><a href="#page-6">Prologue</a></li>
-                        <li><a href="#page-7">Epilogue</a></li>
-                        <li><a href="#page-8">Epigraph</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-md-9">
-                <div id="page-1" class="page bg-light one">
-                    <h2 class="heading">Title Page</h2>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
-                        would have been rewritten a thousand times and everything that was left from its origin would be
-                        the word "and" and the Little Blind Text should turn around and return to its own, safe country.
-                        But nothing the copy said could convince her and so it didn’t take long until a few insidious
-                        Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their
-                        agency, where they abused her for their.</p>
-                </div>
-                <div id="page-2" class="page bg-light two">
-                    <h2 class="heading">Copyright</h2>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
-                        would have been rewritten a thousand times and everything that was left from its origin would be
-                        the word "and" and the Little Blind Text should turn around and return to its own, safe country.
-                        But nothing the copy said could convince her and so it didn’t take long until a few insidious
-                        Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their
-                        agency, where they abused her for their.</p>
-                </div>
-                <div id="page-3" class="page bg-light three">
-                    <h2 class="heading">Table of Contents</h2>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
-                        would have been rewritten a thousand times and everything that was left from its origin would be
-                        the word "and" and the Little Blind Text should turn around and return to its own, safe country.
-                        But nothing the copy said could convince her and so it didn’t take long until a few insidious
-                        Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their
-                        agency, where they abused her for their.</p>
-                </div>
-                <div id="page-4" class="page bg-light four">
-                    <h2 class="heading">Dedication</h2>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
-                        would have been rewritten a thousand times and everything that was left from its origin would be
-                        the word "and" and the Little Blind Text should turn around and return to its own, safe country.
-                        But nothing the copy said could convince her and so it didn’t take long until a few insidious
-                        Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their
-                        agency, where they abused her for their.</p>
-                </div>
-                <div id="page-5" class="page bg-light five">
-                    <h2 class="heading">Foreword</h2>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
-                        would have been rewritten a thousand times and everything that was left from its origin would be
-                        the word "and" and the Little Blind Text should turn around and return to its own, safe country.
-                        But nothing the copy said could convince her and so it didn’t take long until a few insidious
-                        Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their
-                        agency, where they abused her for their.</p>
-                </div>
-                <div id="page-6" class="page bg-light six">
-                    <h2 class="heading">Prologue</h2>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
-                        would have been rewritten a thousand times and everything that was left from its origin would be
-                        the word "and" and the Little Blind Text should turn around and return to its own, safe country.
-                        But nothing the copy said could convince her and so it didn’t take long until a few insidious
-                        Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their
-                        agency, where they abused her for their.</p>
-                </div>
-                <div id="page-7" class="page bg-light seven">
-                    <h2 class="heading">Epilogue</h2>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
-                        would have been rewritten a thousand times and everything that was left from its origin would be
-                        the word "and" and the Little Blind Text should turn around and return to its own, safe country.
-                        But nothing the copy said could convince her and so it didn’t take long until a few insidious
-                        Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their
-                        agency, where they abused her for their.</p>
-                </div>
-                <div id="page-8" class="page bg-light eight">
-                    <h2 class="heading">Epigraph</h2>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
-                        would have been rewritten a thousand times and everything that was left from its origin would be
-                        the word "and" and the Little Blind Text should turn around and return to its own, safe country.
-                        But nothing the copy said could convince her and so it didn’t take long until a few insidious
-                        Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their
-                        agency, where they abused her for their.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--
-<section class="ftco-section ftco-no-pt">
-    <div class="container">
-        <div class="row justify-content-center py-5 mt-5">
-            <div class="col-md-5 heading-section text-center ftco-animate">
-                <span class="subheading">Services</span>
-                <h2 class="mb-4">Services</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 text-center d-flex ftco-animate">
-                <div class="services-1 bg-light">
-							<span class="icon">
-								<i class="flaticon-user-experience"></i>
-							</span>
-                    <div class="desc">
-                        <h3 class="mb-5">Experience</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center d-flex ftco-animate">
-                <div class="services-1 bg-light">
-							<span class="icon">
-								<i class="flaticon-network"></i>
-							</span>
-                    <div class="desc">
-                        <h3 class="mb-5">Marketing Goals</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center d-flex ftco-animate">
-                <div class="services-1 bg-light">
-							<span class="icon">
-								<i class="flaticon-innovation"></i>
-							</span>
-                    <div class="desc">
-                        <h3 class="mb-5">Targetting Vission</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="ftco-section testimony-section ftco-no-pb" id="testimonial-section">
-    <div class="img img-bg border" style="background-image: url(images/bg_4.jpg);"></div>
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-md-12 text-center heading-section heading-section-white ftco-animate">
-                <span class="subheading">Testimonial</span>
-                <h2 class="mb-3">Kinds Words From Customers</h2>
-            </div>
-        </div>
-        <div class="row ftco-animate">
-            <div class="col-md-12">
-                <div class="carousel-testimony owl-carousel ftco-owl">
-                    <div class="item">
-                        <div class="testimony-wrap py-4">
-                            <div class="icon d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-quote-left"></div>
-                            <div class="text">
-                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
-                                    and Consonantia, there live the blind texts.</p>
-                                <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-                                    <div class="pl-3">
-                                        <p class="name">Roger Scott</p>
-                                        <span class="position">Marketing Manager</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap py-4">
-                            <div class="icon d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-quote-left"></div>
-                            <div class="text">
-                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
-                                    and Consonantia, there live the blind texts.</p>
-                                <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                                    <div class="pl-3">
-                                        <p class="name">Roger Scott</p>
-                                        <span class="position">Marketing Manager</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap py-4">
-                            <div class="icon d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-quote-left"></div>
-                            <div class="text">
-                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
-                                    and Consonantia, there live the blind texts.</p>
-                                <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-                                    <div class="pl-3">
-                                        <p class="name">Roger Scott</p>
-                                        <span class="position">Marketing Manager</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap py-4">
-                            <div class="icon d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-quote-left"></div>
-                            <div class="text">
-                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
-                                    and Consonantia, there live the blind texts.</p>
-                                <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-                                    <div class="pl-3">
-                                        <p class="name">Roger Scott</p>
-                                        <span class="position">Marketing Manager</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap py-4">
-                            <div class="icon d-flex align-items-center justify-content-center"><span
-                                    class="fa fa-quote-left"></div>
-                            <div class="text">
-                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
-                                    and Consonantia, there live the blind texts.</p>
-                                <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                                    <div class="pl-3">
-                                        <p class="name">Roger Scott</p>
-                                        <span class="position">Marketing Manager</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="ftco-section ftco-project" id="projects-section">
-    <div class="container">
-        <div class="row no-gutters justify-content-center pb-5">
-            <div class="col-md-12 heading-section text-center ftco-animate">
-                <span class="subheading">Projects</span>
-                <h2 class="mb-4">My Other Books</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="project img ftco-animate d-flex justify-content-center align-items-end"
-                     style="background-image: url(images/book-1.jpg);">
-                    <div class="overlay"></div>
-                    <div class="text p-4">
-                        <h3><a href="#">You Are Your Ony Limit</a></h3>
-                        <span>Romance</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="project img ftco-animate d-flex justify-content-center align-items-end"
-                     style="background-image: url(images/book-2.jpg);">
-                    <div class="overlay"></div>
-                    <div class="text p-4">
-                        <h3><a href="#">You Are Your Ony Limit</a></h3>
-                        <span>Romance</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="project img ftco-animate d-flex justify-content-center align-items-end"
-                     style="background-image: url(images/book-3.jpg);">
-                    <div class="overlay"></div>
-                    <div class="text p-4">
-                        <h3><a href="#">You Are Your Ony Limit</a></h3>
-                        <span>Romance</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="project img ftco-animate d-flex justify-content-center align-items-end"
-                     style="background-image: url(images/book-4.jpg);">
-                    <div class="overlay"></div>
-                    <div class="text p-4">
-                        <h3><a href="#">You Are Your Ony Limit</a></h3>
-                        <span>Romance</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="project img ftco-animate d-flex justify-content-center align-items-end"
-                     style="background-image: url(images/book-5.jpg);">
-                    <div class="overlay"></div>
-                    <div class="text p-4">
-                        <h3><a href="#">You Are Your Ony Limit</a></h3>
-                        <span>Romance</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="project img ftco-animate d-flex justify-content-center align-items-end"
-                     style="background-image: url(images/book-7.jpg);">
-                    <div class="overlay"></div>
-                    <div class="text p-4">
-                        <h3><a href="#">You Are Your Ony Limit</a></h3>
-                        <span>Romance</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="project img ftco-animate d-flex justify-content-center align-items-end"
-                     style="background-image: url(images/book-6.jpg);">
-                    <div class="overlay"></div>
-                    <div class="text p-4">
-                        <h3><a href="#">You Are Your Ony Limit</a></h3>
-                        <span>Romance</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="project img ftco-animate d-flex justify-content-center align-items-end"
-                     style="background-image: url(images/book-8.jpg);">
-                    <div class="overlay"></div>
-                    <div class="text p-4">
-                        <h3><a href="#">You Are Your Ony Limit</a></h3>
-                        <span>Romance</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div> -->
     </div>
 </section>
 
-<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="author-section">
-    <div class="container">
-        <div class="row d-flex no-gutters">
-            <div class="col-md-6 col-lg-6 d-flex">
-                <div class="img-about img d-flex align-items-stretch">
-                    <div class="overlay"></div>
-                    <div class="img d-flex align-self-stretch align-items-center"
-                         style="background-image:url(images/about.jpg);">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6 d-flex">
-                <div class="py-md-5 w-100 bg-light px-md-5">
-                    <div class="py-md-5">
-                        <div class="row justify-content-start pb-3">
-                            <div class="col-md-12 heading-section ftco-animate">
-                                <span class="subheading">Know More About The Author</span>
-                                <h2 class="mb-4">Franklin Henderson</h2>
-                                <p>A small river named Duden flows by their place and supplies it with the necessary
-                                    regelialia.</p>
-                                <ul class="about-info mt-4 px-md-0 px-2">
-                                    <li class="d-flex"><span>Name:</span> <span>Franklin Henderson</span></li>
-                                    <li class="d-flex"><span>Date of birth:</span> <span>November 28, 1980</span></li>
-                                    <li class="d-flex"><span>Address:</span> <span>San Francisco CA 97987 USA</span>
-                                    </li>
-                                    <li class="d-flex"><span>Zip code:</span> <span>1000</span></li>
-                                    <li class="d-flex"><span>Email:</span> <span>franklinsample@gmail.com</span></li>
-                                    <li class="d-flex"><span>Phone: </span> <span>+1-2234-5678-9-0</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="counter-wrap ftco-animate d-flex mt-md-3">
-                            <div class="text">
-                                <p class="mb-4 btn-custom">
-                                    <span class="number" data-number="120">0</span>
-                                    <span>View All Books</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
- -->
 <section class="ftco-section contact-section ftco-no-pb " id="contact-section">
     <div class="container mb-5">
         <div class="row justify-content-center mb-5 pb-3">
@@ -485,7 +114,10 @@
             </div>
 
             <div class="col-md-6 d-flex">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.69980799768!2d-75.66361382466339!3d6.2443676962019925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1756344969080!5m2!1ses-419!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.69980799768!2d-75.66361382466339!3d6.2443676962019925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1756344969080!5m2!1ses-419!2sco"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
@@ -542,3 +174,4 @@
 
 </body>
 </html>
+
